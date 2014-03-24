@@ -394,7 +394,7 @@
   };
 
   $.fn.combobox.defaults = {
-  template: '<div class="combobox-container"><input type="hidden" /><input type="text" autocomplete="off" /><span class="add-on btn dropdown-toggle" data-dropdown="dropdown"><span class="caret"/><span class="combobox-clear"><i class="icon-remove"/></span></span></div>'
+  template: '<div class="combobox-container"><input type="hidden" /><div class="input-group"><input type="text" autocomplete="off" /><div class="input-group-btn"><button type="button" class="btn btn-default dropdown-toggle" data-dropdown="dropdown"><span class="caret"/><span class="combobox-clear" style="width: 8px; margin: 0;"><span class="glyphicon glyphicon-remove" style="top: 3px; left:-3px"></span></span></div></div></div>'
   , menu: '<ul class="typeahead typeahead-long dropdown-menu"></ul>'
   , item: '<li><a href="#"></a></li>'
   };
